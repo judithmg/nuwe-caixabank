@@ -28,7 +28,7 @@ Como linter, la app utiliza `eslint`+ `prettier` y fueron agregadas reglas tanto
 ```
 nuwe-caixabank/
 ├───assets      
-│   ├───icons   
+│   ├───fonts
 │   └───images  
 ├───components  
 ├───config
@@ -48,7 +48,7 @@ nuwe-caixabank/
 
 ```
 git clone https://github.com/judithmg/nuwe-caixabank
-cd nuwe-caixaban
+cd nuwe-caixabank
 yarn 
 ```
 
