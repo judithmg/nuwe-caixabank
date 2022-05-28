@@ -41,7 +41,7 @@ nuwe-caixabank/
 ```
 ## Live preview 📳
 
-[Vista previa web](https://nuwe-summer1.netlify.app)
+[Vista previa web](https://nuwe-caixabank.netlify.app/)
 
 
 ## Run this project 🏃‍♀️
@@ -53,6 +53,7 @@ yarn
 ```
 
 To run the project, use
+
 ```
 yarn start
 ```
