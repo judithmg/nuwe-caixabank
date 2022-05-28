@@ -48,6 +48,7 @@ module.exports = {
       2,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
+    'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
     'simple-import-sort/exports': 'error',
     'simple-import-sort/imports': 'error',
@@ -59,6 +60,7 @@ module.exports = {
     'typescript-sort-keys/string-enum': 1,
     'react/no-unstable-nested-components': 0,
     'react/prop-types': 0,
+    '@typescript-eslint/no-var-requires': 0,
 
     //React Native
     'react-native/sort-styles': [1, 'asc'],

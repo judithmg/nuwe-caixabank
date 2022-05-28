@@ -3,16 +3,9 @@ import DatePicker from 'react-datepicker';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { Pressable, Text, View } from 'react-native';
 
-import * as Colors from '../../constants/colors';
-import { useThemeColor } from '../Themed';
 import styles from './styles';
 
 const Calendar: React.FC = () => {
-  const color = useThemeColor(
-    { dark: Colors.lightGray, light: Colors.fog },
-    'text',
-  );
-
   const [startDate, setStartDate] = useState(new Date());
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,10 +21,10 @@ const Calendar: React.FC = () => {
     <View style={styles.container}>
       <Pressable onPress={handleClick}>
         <View style={styles.button}>
-          <Text style={[styles.buttonText, { color }]}>
+          <Text style={styles.buttonText}>
             {startDate.toLocaleDateString()}
           </Text>
-          <AiOutlineCalendar color={color} />
+          <AiOutlineCalendar />
         </View>
       </Pressable>
       {isOpen && (

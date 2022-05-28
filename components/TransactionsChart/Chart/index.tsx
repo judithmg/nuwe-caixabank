@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { LayoutChangeEvent, View } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 
-import { getWindowWidth } from '../../../config/styles';
+import { getWindowWidth } from '../../../config/global';
 import { chartConfig, dailyData, monthlyData } from './constants';
 import styles from './styles';
 import { Props } from './types';

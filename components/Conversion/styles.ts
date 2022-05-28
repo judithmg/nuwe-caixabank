@@ -1,14 +1,12 @@
 import { StyleSheet } from 'react-native';
 
-import { isWeb } from '../../config/global';
 import * as Colors from '../../constants/colors';
 import * as Fonts from '../../constants/fonts';
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: isWeb ? Colors.transparent : Colors.white,
+    backgroundColor: Colors.white,
     borderRadius: 10,
-    marginHorizontal: 10,
     paddingHorizontal: 24,
     paddingVertical: 14,
   },

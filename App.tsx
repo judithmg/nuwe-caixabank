@@ -1,22 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import Header from './components/Header';
+import { isWeb } from './config/global';
 import useCachedResources from './hooks/useCachedResources';
-import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
 
-export default function App() {
+const App: React.FC = () => {
   const isLoadingComplete = useCachedResources();
-  const colorScheme = useColorScheme();
 
   if (!isLoadingComplete) {
     return null;
-  } else {
-    return (
-      <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
-        <StatusBar />
-      </SafeAreaProvider>
-    );
   }
-}
+  return (
+    <SafeAreaProvider>
+      {isWeb && <Header />}
+      <Navigation />
+      <StatusBar />
+    </SafeAreaProvider>
+  );
+};
+
+export default App;

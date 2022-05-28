@@ -4,7 +4,7 @@ const chance = new Chance();
 
 const labels = ['Screens', 'PCs', 'Phones', 'Tablets'];
 
-export default {
+export const data = {
   datasets: [
     {
       backgroundColor: [
@@ -25,4 +25,13 @@ export default {
     },
   ],
   labels,
+};
+
+export const options = {
+  plugins: {
+    legend: {
+      position: 'bottom' as const,
+    },
+  },
+  responsive: true,
 };
