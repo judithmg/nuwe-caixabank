@@ -23,19 +23,19 @@ export default StyleSheet.create({
   subtitle: {
     color: Colors.gray,
     fontSize: 12,
-    textTransform: "uppercase",
-    textAlign: "center",
+    textTransform: 'uppercase',
+    textAlign: 'center',
   },
   title: {
     fontSize: 15,
     fontWeight: Fonts.weightBold,
-    textAlign: "center",
+    textAlign: 'center',
   },
   transactionsText: {
     fontWeight: Fonts.weightMedium,
     color: Colors.nightBlue,
     fontSize: Fonts.h1Size,
-    textAlign: "center",
+    textAlign: 'center',
     marginVertical: 12,
   },
 });
