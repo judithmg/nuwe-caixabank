@@ -7,7 +7,7 @@ Este proyecto contiene el código para la hackathon organizada por Nuwe junto co
 
 ## About 🤓
 
-<img src"https://github.com/judithmg/nuwe-caixabank/blob/main/public/mobile.png?raw=true"/>
+<img src="https://github.com/judithmg/nuwe-caixabank/blob/main/public/mobile.png?raw=true"/>
 
 El proyecto se ha creado utilizando `react-native-web`, que permite una implementación de componentes y APIs de react-native de manera que sean interoperables con React DOM y por lo tanto operativos también en browser.
 
