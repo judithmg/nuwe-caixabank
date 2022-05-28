@@ -7,7 +7,7 @@ Este proyecto contiene el código para la hackathon organizada por Nuwe junto co
 
 ## About 🤓
 
-<img src="https://github.com/judithmg/nuwe-caixabank/blob/main/public/images/mobile.png?raw=true"/>
+<img src="https://github.com/judithmg/nuwe-caixabank/blob/main/public/mobile.png?raw=true"/>
 
 El proyecto se ha creado utilizando `react-native-web`, que permite una implementación de componentes y APIs de react-native de manera que sean interoperables con React DOM y por lo tanto operativos también en browser.
 
@@ -15,7 +15,7 @@ Como lenguaje se utiliza Typescript, lo cual facilitaría el tratamiento de dato
 
 Algunos componentes, como `<TransactionsCount/>` fueron hechos de tal manera que fueran utilizados por todas las plataformas. Otros son únicos según si el dispositivo es web o mobile.
 
-<img src="https://github.com/judithmg/nuwe-caixabank/blob/main/public/images/web.png?raw=true"/>
+<img src="https://github.com/judithmg/nuwe-caixabank/blob/main/public/web.png?raw=true"/>
 
 Escogí la opción de desarrollar la app con `react-native-web` ya que para un proyecto de apenas un día creo que es la opción más rápida, aunque si este se hubiese tratado de un proyecto a largo plazo, hubiese estudiado otras opciones como la de crear una librería de componentes reutilizables y tener proyectos independientes (web con `react` y mobile con `react-native`) ya que encuentro que son más escalables. Además, con el diseño disponible, era difícil tomar una decisión ya que no quedaba claro si los datos que se mostraban en mobile eran los mismos que en web, o si estos deberían encontrarse de otra manera (en otro tab? en otra página?).
 
