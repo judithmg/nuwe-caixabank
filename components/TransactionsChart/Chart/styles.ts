@@ -14,8 +14,8 @@ export default StyleSheet.create({
     elevation: 9,
     shadowColor: Colors.black,
     shadowOffset: {
-      width: 0,
       height: 10,
+      width: 0,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,
@@ -23,19 +23,19 @@ export default StyleSheet.create({
   subtitle: {
     color: Colors.gray,
     fontSize: 12,
-    textTransform: "uppercase",
-    textAlign: "center",
+    textAlign: 'center',
+    textTransform: 'uppercase',
   },
   title: {
     fontSize: 15,
     fontWeight: Fonts.weightBold,
-    textAlign: "center",
+    textAlign: 'center',
   },
   transactionsText: {
-    fontWeight: Fonts.weightMedium,
     color: Colors.nightBlue,
     fontSize: Fonts.h1Size,
-    textAlign: "center",
+    fontWeight: Fonts.weightMedium,
     marginVertical: 12,
+    textAlign: 'center',
   },
 });
